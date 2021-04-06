@@ -1,0 +1,29 @@
+.item-container {
+    background-color: aqua;
+    display: flex;
+}
+
+.item {
+    height: 10em;
+    display: flex;
+    flex-grow: 1;
+    justify-content: left !important;
+    padding: 0 1em 0 1em;
+    align-items: center;
+}
+
+.item .item-icon {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.item .item-sub-container {
+    padding-left: 8px;
+    text-align: left;
+}
+
+.item .item-big-bold-text {
+    font-weight: bold;
+    font-size: 2em;
+}
